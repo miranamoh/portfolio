@@ -12,8 +12,7 @@
   <a href="https://miranamoh.github.io/portfolio/"><strong> Live Demo → miranamoh.github.io/portfolio</strong></a>
 </p>
 
-![alt text](<Screenshot 2026-07-25 222930.png>)
-<p align="center"><img src="docs/preview.png" width="800" alt="Portfolio Preview"/></p>
+<img width="1882" height="866" alt="Screenshot 2026-07-25 222930" src="https://github.com/user-attachments/assets/ced3a94e-cff1-4854-86a9-edc7034b7a56" />
 
 ---
 
