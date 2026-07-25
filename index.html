@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirana — AI & Machine Learning Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">Mirana.</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">AI Engineer <span class="gradient-text">Building the Future</span></h1>
+        <p class="hero-subtitle">Machine Learning • Computer Vision • Time-Series Forecasting</p>
+        <p class="hero-description">Turning raw data into intelligent systems that solve real problems. From concept to deployment.</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+    </div>
+    <div class="hero-gradient"></div>
+</header>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p class="about-text">
+                I'm an AI undergraduate passionate about building practical machine learning and deep learning systems that go beyond notebooks. 
+                I care about every step: from exploring messy data to deploying working models.
+            </p>
+            <div class="focus-areas">
+                <div class="focus-card">
+                    <h3>Time-Series Forecasting</h3>
+                    <p>Modeling real-world trends with SARIMA, Random Forest, and statistical approaches.</p>
+                </div>
+                <div class="focus-card">
+                    <h3>Computer Vision</h3>
+                    <p>Real-time detection and recognition systems using YOLO, CLIP, and neural networks.</p>
+                </div>
+                <div class="focus-card">
+                    <h3>Deep Learning</h3>
+                    <p>Transfer learning and fine-tuning strategies for efficient model optimization.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Technical Stack</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Languages</h4>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Shell</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>ML & Deep Learning</h4>
+                <div class="skill-tags">
+                    <span>TensorFlow</span>
+                    <span>PyTorch</span>
+                    <span>Keras</span>
+                    <span>scikit-learn</span>
+                    <span>SARIMA</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Computer Vision</h4>
+                <div class="skill-tags">
+                    <span>OpenCV</span>
+                    <span>YOLO</span>
+                    <span>CLIP</span>
+                    <span>MobileNetV2</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Data & Deployment</h4>
+                <div class="skill-tags">
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>MySQL</span>
+                    <span>Streamlit</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h4>Tools & Environment</h4>
+                <div class="skill-tags">
+                    <span>Jupyter</span>
+                    <span>Google Colab</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Notion</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section projects-section">
+    <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1: Saudi Unemployment -->
+            <article class="project-card">
+                <div class="project-problem">
+                    <h3>The Challenge</h3>
+                    <p>Labour-market indicators like unemployment rates are published with a lag, and stakeholders lack an accessible way to explore trends and generate forecasts without writing code.</p>
+                    <p class="target-audience"><strong>Target:</strong> Researchers, policy analysts, students needing quick insights into economic trends.</p>
+                </div>
+                <div class="project-solution">
+                    <h3>The Solution</h3>
+                    <h4>Saudi Unemployment Rate Forecasting</h4>
+                    <p>Built an interactive forecasting system that compares three approaches (SARIMA, Random Forest, Linear Regression) side-by-side, deployed as a live Streamlit dashboard.</p>
+                    <div class="project-metrics">
+                        <span class="metric">93.27% <small>Best Validation Accuracy</small></span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>SARIMA</span>
+                        <span>Scikit-learn</span>
+                        <span>Streamlit</span>
+                    </div>
+                    <a href="https://github.com/miranamoh/saudi-unemployment-forecast" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                </div>
+            </article>
+
+            <!-- Project 2: Beauty Salon DB -->
+            <article class="project-card">
+                <div class="project-problem">
+                    <h3>The Challenge</h3>
+                    <p>Small salons track appointments, clients, and inventory manually or across disconnected spreadsheets, leading to double-bookings, lost client history, and no reporting.</p>
+                    <p class="target-audience"><strong>Target:</strong> Beauty salon owners and managers seeking to digitize operations.</p>
+                </div>
+                <div class="project-solution">
+                    <h3>The Solution</h3>
+                    <h4>Beauty Salon Database System</h4>
+                    <p>Designed and implemented a normalized 3NF relational schema managing clients, products, appointments, and services. Includes aggregate functions, joins, subqueries, and views for business reporting.</p>
+                    <div class="project-metrics">
+                        <span class="metric">3NF <small>Normalized Schema</small></span>
+                    </div>
+                    <div class="project-tech">
+                        <span>MySQL</span>
+                        <span>Database Design</span>
+                        <span>SQL</span>
+                    </div>
+                    <a href="https://github.com/miranamoh/beauty-salon-database-system" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                </div>
+            </article>
+
+            <!-- Project 3: Flower Classification -->
+            <article class="project-card">
+                <div class="project-problem">
+                    <h3>The Challenge</h3>
+                    <p>Training deep CNNs from scratch for flower identification requires massive datasets and compute. How can we achieve strong accuracy with limited resources?</p>
+                    <p class="target-audience"><strong>Target:</strong> Students, botanists, and applications needing lightweight, mobile-friendly image classification.</p>
+                </div>
+                <div class="project-solution">
+                    <h3>The Solution</h3>
+                    <h4>Flower Image Classification with MobileNetV2</h4>
+                    <p>Leveraged transfer learning with MobileNetV2, comparing frozen baseline, dropout regularization, and selective fine-tuning. Achieved 92% test accuracy on 5 flower species.</p>
+                    <div class="project-metrics">
+                        <span class="metric">92% <small>Test Accuracy</small></span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Transfer Learning</span>
+                    </div>
+                    <a href="https://github.com/miranamoh/flower-classification-mobilenetv2" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact-section">
+    <div class="container contact-container">
+        <h2>Let's Connect</h2>
+        <p class="contact-lead">Open to AI/ML internships and cooperative training opportunities.</p>
+        <div class="contact-methods">
+            <a href="mailto:mirana.moha@outlook.com" class="contact-card">
+                <span class="contact-icon">📧</span>
+                <span>mirana.moha@outlook.com</span>
+            </a>
+            <a href="https://github.com/miranamoh" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <span class="contact-icon">🔗</span>
+                <span>github.com/miranamoh</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2026 Miran. Built with curiosity and code.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
